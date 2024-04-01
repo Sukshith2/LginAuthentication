@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+
+    >
+        <item
+            android:id="@+id/nav_home"
+            android:title="home"
+            android:icon="@drawable/nav_home"/>
+
+        <item
+            android:id="@+id/nav_delete"
+            android:title="delete"
+            android:icon="@drawable/nav_delete"/>
+
+        <item
+            android:id="@+id/nav_msg"
+            android:title="message"
+            android:icon="@drawable/nav_msg"/>
+<item android:title="LogOut">
+<menu>
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout"
+            android:icon="@drawable/nav_home"/>
+
+        <item
+            android:id="@+id/nav_call"
+            android:title="Call"
+            android:icon="@drawable/baseline_add_call_24"/>
+
+
+
+</menu>
+
+</item>
+
+
+
+</menu>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:background="#BFEDE3"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_width="400dp"
+            android:layout_height="600dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="50dp"
+            app:cardBackgroundColor="#65A0E8"
+            app:cardElevation="4dp"
+
+            app:cardUseCompatPadding="true"
+            app:cardCornerRadius="20dp"
+
+            android:background="@drawable/customer_shape">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SIGNIN"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:textAlignment="center"
+                    android:layout_marginTop="9mm"
+                    android:textColor="#E40F0F"
+                    android:textSize="40dp"
+                    android:id="@+id/signForm"
+                    />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter the email"
+                    android:textColor="#F4F0F0"
+                    android:textStyle="bold"
+
+                    android:layout_margin="20dp"
+                    android:layout_below="@+id/signForm"
+                    android:id="@+id/signemail"
+                    android:imeOptions="actionNext"
+                    />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter the Name"
+                    android:textColor="#F4F0F0"
+                    android:textStyle="bold"
+                    android:layout_margin="20dp"
+                    android:layout_below="@+id/signemail"
+                    android:id="@+id/signname"
+                    android:imeOptions="actionNext"
+                    />
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter the pass"
+                    android:textColor="#F4F0F0"
+                    android:textStyle="bold"
+                    android:layout_margin="20dp"
+                    android:layout_below="@+id/signname"
+                    android:id="@+id/signpass"
+                    android:imeOptions="actionNext"
+                    />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter the number"
+                    android:textColor="#F4F0F0"
+                    android:textStyle="bold"
+                    android:layout_margin="20dp"
+                    android:layout_below="@+id/signpass"
+                    android:id="@+id/signnumber"
+                    android:imeOptions="actionNext"
+                    />
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_below="@id/signnumber"
+                    android:layout_margin="20dp"
+                    android:text="Login"
+                    android:id="@+id/btnsign"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="login"
+                    android:layout_below="@+id/btnsign"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:id="@+id/sign"
+                    android:textStyle="bold"/>
+
+
+
+
+            </RelativeLayout>
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
